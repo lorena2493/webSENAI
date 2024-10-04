@@ -1,0 +1,47 @@
+p {
+    /* Troca a cor de todos os textos */
+    color: dodgerblue;
+}
+
+
+
+.frase{
+    /* Troca a cor específica */
+    color: hotpink;
+
+    /* Coloca efeito no texto */
+    text-decoration: underline;
+}
+
+
+
+#frase{
+    /* Troca a cor específica */
+    color: whitesmoke;
+
+    /* Define a cor de fundo (efeito de grifado no texto) */
+    background-color: cornflowerblue;
+
+    /* Define o alinhamento do texto */
+    text-align: center;
+
+    /* Define o tamanho da fonte */
+    font-size: 24px;
+}
+
+
+/* Configurações do body mudam toda a página */
+body {
+    /* Define a cor de fundo */
+    background-color: #2c2c2c;
+
+    /* Define o tipo de fonte */
+    font-family: "Berlin Sans FB", serif;
+}
+
+
+/* O hover define o que acontece quando o mouse passa sobre */
+#frase:hover {
+    background-color: whitesmoke;
+    color: cornflowerblue;
+}

@@ -1,0 +1,87 @@
+body {
+    background-color: #ffff80;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    background-color: white;
+}
+
+
+li {
+    background-color: gray;
+    margin-bottom: 5px;
+}
+
+
+.verde{
+    color: green;
+    text-align: start;
+}
+
+.vermelho {
+    color:red;
+    text-align: center;
+}
+
+.azul {
+    color: blue;
+    text-align: end;
+}
+
+.roxo {
+    color: purple;
+    text-align: center;
+}
+
+.amarelo {
+    color: #ffff80;
+    text-align: start;
+}
+
+.rosa {
+    color: hotpink;
+    text-align: center;
+}
+
+
+
+
+li:hover{
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+
+.verde:hover{
+    color: black;
+    text-align: start;
+}
+
+.vermelho:hover{
+    color:black;
+    text-align: start;
+}
+
+.azul:hover{
+    color: black;
+    text-align: start;
+}
+
+.roxo:hover{
+    color: black;
+    text-align: start;
+}
+
+.amarelo:hover{
+    color: black;
+    text-align: start;
+}
+
+.rosa:hover{
+    color: black;
+    text-align: start;
+}

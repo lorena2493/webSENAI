@@ -1,0 +1,39 @@
+<!--Importa o layout do template-->
+{% extends 'template.html' %}
+
+<!--Define o bloco onde o conteudo sera exibido-->
+{% block conteudo %}
+
+<h1> Exemplos </h1>
+
+
+<div class="card">
+    <a href="{{ url_for('texto') }}">Tags de Texto</a>
+</div>
+
+
+
+<div class="card">
+    <a href="{{ url_for('midia') }}">Mídia</a>
+</div>
+
+
+
+<div class="card">
+    <a href="{{ url_for('formulario') }}">Formulário</a>
+</div>
+
+<div class="card">
+    <a href="{{ url_for('texto_css') }}">Texto CSS</a>
+</div>
+
+
+
+<div clas="card">
+    <a href="{{ url_for('divs') }}">Divs</a>
+</div>
+
+
+
+
+{% endblock %}

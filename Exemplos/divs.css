@@ -1,0 +1,48 @@
+* { /* Zerar a borda do site */
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Todos os paragrafos dentro de uma div */
+div p {
+    display: inline;
+}
+
+.div_block {
+    background-color: hotpink;
+    /* Block define a largura 100%, padrão da div */
+    display: block;
+}
+
+.div_inline {
+    background-color: dodgerblue;
+    /*Inline define a largura de acordo com o conteúdo
+    Não aceita modificar altura e largura*/
+    display: inline;
+}
+
+.div_inline_block {
+    /*Inline define a largura de acordo com o conteúdo
+    Inline-block aceita modificar altura e largura*/
+    display: inline-block;
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+     /*Margem externa*/
+    margin: 10px;
+     /*Margem interna*/
+    padding: 10px;
+     /*Configuração de borda: espessura, tipo e cor*/
+    border: 5px solid darkred;
+     /*Deixa os cantos arredondados*/
+    border-radius: 10px;
+
+}
